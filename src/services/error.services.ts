@@ -1,6 +1,6 @@
 import fs from "fs";
-const ERRORS_FILE = "src/logs/error.log";
-const EMAIL_NOTIFIFICATIONS_FILE = "src/logs/notification-error.log";
+const ERRORS_FILE = "src/error.log";
+const EMAIL_NOTIFIFICATIONS_FILE = "src/notification-error.log";
 const ERRORS_NOTIFICATION_THRESHOLD_IN_MILLISECONDS = 60 * 1000;
 const ERRORS_TO_CHECK = 10;
 const EMAILS_TIME_BETWEEN_IN_MILLISECONDS = 60 * 1000;
